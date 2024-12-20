@@ -1,1 +1,19 @@
-<h1>Hello, {{title}}</h1>
+<app-header></app-header>
+<a routerLink="operators">RxJs Operators</a>
+
+<router-outlet></router-outlet>
+
+
+<!-- <button (click)="createObs()">Obs</button>
+<button (click)="createSub()">Sub</button>
+
+ -->
+
+<br><br><br><br><br><br><br><br><br><br>
+<button (click)="emitData()">Emit</button>
+<button (click)="getData()">Get</button>
+
+
+<ul>
+    <li *ngFor="let item of array">{{item}}</li>
+</ul>
